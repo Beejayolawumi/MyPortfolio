@@ -1,13 +1,9 @@
 .contact {
   display: flex;
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
+
   align-items: center;
   justify-content: center;
   margin-top: 10%;
-  /* gap: 80px; */
-  /* margin: 80px 170px; */
-  /* background-color: orangered; */
 }
 .contact-title {
   position: relative;
@@ -22,8 +18,8 @@
   bottom: 35px;
   right: 10px;
   z-index: -1;
-  /* background-color: #b415ff; */
 }
+
 .contact-section {
   display: flex;
   flex-wrap: wrap;

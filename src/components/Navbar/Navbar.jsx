@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="myname">
-        <h1>Emmanuel</h1>
+        <h1>Olawumi</h1>
       </div>
       {/* <img src={logo} alt="" /> */}
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
@@ -40,20 +40,20 @@ const Navbar = () => {
           {menu === "home" ? <img src={underline} alt="" /> : <></>}
         </li>
         <li>
-          <p onClick={() => scrollTo(900, "about")}>About me</p>
+          <p onClick={() => scrollTo(700, "about")}>About me</p>
           {menu === "about" ? <img src={underline} alt="" /> : <></>}
         </li>
 
         <li>
-          <p onClick={() => scrollTo(1800, "work")}>Portfolio</p>
+          <p onClick={() => scrollTo(1600, "work")}>Portfolio</p>
           {menu === "work" ? <img src={underline} alt="" /> : <></>}
         </li>
         <li>
-          <p onClick={() => scrollTo(4400, "contact")}>Contact</p>
+          <p onClick={() => scrollTo(2200, "contact")}>Contact</p>
           {menu === "contact" ? <img src={underline} alt="" /> : <></>}
         </li>
       </ul>
-      <div className="nav-connect" onClick={() => scrollTo(5300, "connect")}>
+      <div className="nav-connect" onClick={() => scrollTo(5500, "connect")}>
         Connect with me
       </div>
     </div>

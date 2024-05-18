@@ -7,7 +7,7 @@ const Footer = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "e9c5c15d-a128-461b-8794-58c846829f33");
+    formData.append("access_key", "1a7580f3-2d51-4bb8-b64a-bf5778a3642c");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
           <div className="myname">
-            <h1>Olawunmi</h1>
+            <h1>Olawumi</h1>
           </div>
           <p>
             I am a frontend developer from Nigeria with 2 years of experience
@@ -54,9 +54,24 @@ const Footer = () => {
           &#169; 2024 Beejay Ola. All rights and reserved.
         </p>
         <div className="footer-bottom-right">
-          <p>08065592378</p>
-          <p>Email address</p>
-          <p>github Address</p>
+          <p>
+            <a
+              href="https://github.com/Beejayolawumi"
+              target="blank"
+              className="github"
+            >
+              Github
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/jamiu-olawumi-3294bb227?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Btx9PjGj7QQKZb7GECDuzbw%3D%3D"
+              target="blank"
+              className="github"
+            >
+              LinkedIn
+            </a>
+          </p>
         </div>
       </div>
     </div>

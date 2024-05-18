@@ -8,7 +8,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "e9c5c15d-a128-461b-8794-58c846829f33");
+    formData.append("access_key", "1a7580f3-2d51-4bb8-b64a-bf5778a3642c");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -40,15 +40,15 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" />
-              <p>greatstackdev@gmail.com</p>
+              <p>beejayolawumi2020@gmail.com</p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />
-              <p>+2348034244528</p>
+              <p>+2347037985159</p>
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="" />
-              <p>CA, United State.</p>
+              <p>Lagos, Nigeria.</p>
             </div>
           </div>
         </div>

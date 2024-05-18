@@ -1,18 +1,18 @@
 import React from "react";
 import "./Aboutpage.css";
-import profile_img from "/imageFolder/profile.jpg";
+import profile_img from "/official-image.jpeg";
 import Typewriter from "typewriter-effect";
 
 const Aboutpage = () => {
   return (
     <div id="home" className="hero">
       <img src={profile_img} alt="" style={{ borderRadius: "50%" }} />
-      <h1>I'm Emmanuel Chukwuma based in Nigeria</h1>
+      <h1>I'm Jamiu Olawumi based in Lagos, Nigeria</h1>
       <div className="about-text">
         I'm a
         <Typewriter
           options={{
-            strings: ["Frontend Developer", "web Developer", "Freelancer"],
+            strings: ["Frontend Developer", "Web Developer", "Freelancer"],
             autoStart: true,
             loop: true,
           }}
@@ -22,7 +22,15 @@ const Aboutpage = () => {
 
       <div className="hero-action">
         <div className="hero-connect">Connect with me</div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">
+          <a
+            href="https://drive.google.com/file/d/1c27lQLv6pn9pv1JKA1riWjI4xCNv3m9o/view?usp=drivesdk"
+            target="blank"
+            className="resume"
+          >
+            My resume
+          </a>
+        </div>
       </div>
     </div>
   );
