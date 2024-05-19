@@ -23,6 +23,7 @@ const Footer = () => {
 
     if (res.success) {
       alert(" your Email was Successfully sent ", res);
+      event.target.reset();
     }
   };
   return (
