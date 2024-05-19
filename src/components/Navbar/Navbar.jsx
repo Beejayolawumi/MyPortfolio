@@ -49,7 +49,7 @@ const Navbar = () => {
           {menu === "work" ? <img src={underline} alt="" /> : <></>}
         </li>
         <li>
-          <p onClick={() => scrollTo(2200, "contact")}>Contact</p>
+          <p onClick={() => scrollTo(2250, "contact")}>Contact</p>
           {menu === "contact" ? <img src={underline} alt="" /> : <></>}
         </li>
       </ul>
