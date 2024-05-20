@@ -18,7 +18,7 @@ const About = () => {
             <Typewriter
               options={{
                 strings: [
-                  " I am an experienced Frontend Developer with over two years of professional creativity and technical expertise in the field. Throughout my career, I have  the priviledge of collaborating with prestigious organizations, contirbuted to their success and growth.  ",
+                  " I am an experienced Frontend Developer with over two years of professional creativity and technical expertise in the field. Throughout my career, I have  the priviledge of collaborating with prestigious organizations, contirbuted to their growth and success.  ",
                 ],
 
                 autoStart: true,
@@ -28,7 +28,7 @@ const About = () => {
 
             <p>
               My passion for frontend development is not only reflected in my
-              extensive experience but also in the enthusiam and dedication I
+              extensive experience but also in the enthusiasm and dedication I
               bring to each project
             </p>
           </div>

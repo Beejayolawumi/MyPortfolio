@@ -9,7 +9,7 @@ const Aboutpage = () => {
       <img src={profile_img} alt="" style={{ borderRadius: "50%" }} />
       <h1>I'm Jamiu Olawumi based in Lagos, Nigeria</h1>
       <div className="about-text">
-        I'm a
+        I am a
         <Typewriter
           options={{
             strings: ["Frontend Developer", "Web Developer", "Freelancer"],
