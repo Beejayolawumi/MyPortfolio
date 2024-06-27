@@ -26,7 +26,6 @@ const Navbar = () => {
       <div className="myname">
         <h1>Olawumi</h1>
       </div>
-      {/* <img src={logo} alt="" /> */}
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef} className="nav-menu">
         <img

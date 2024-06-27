@@ -24,7 +24,7 @@ const Aboutpage = () => {
         <div className="hero-connect">Connect with me</div>
         <div className="hero-resume">
           <a
-            href="https://drive.google.com/file/d/17QfPc_C2iw_n3GwCAGv75xAEm0m5opYx/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1TJsnGQNn7zy5qZZUFN6HJu8UQm-ybO8r/view?usp=drive_link"
             target="blank"
             className="resume"
           >
