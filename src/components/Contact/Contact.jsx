@@ -34,9 +34,9 @@ const Contact = () => {
           <h1>Let's talk</h1>
 
           <p>
-            I'm currently available to take on new projects, so feel free to
-            send me a message about anything that you want me to work on. You
-            can contact me anytime.
+            I am excited about the opportunity to work on challenging projects
+            that push the boundaries of web development. Let's connect and
+            create something amazing together!
           </p>
           <div className="contact-details">
             <div className="contact-detail">
