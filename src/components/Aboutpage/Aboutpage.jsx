@@ -17,7 +17,7 @@ const Aboutpage = () => {
             loop: true,
           }}
         />
-        with 2 years of experience in the Bulb Africa
+        with 2 years of creative experience at the Bulb Africa
       </div>
 
       <div className="hero-action">
